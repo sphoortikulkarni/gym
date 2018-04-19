@@ -258,7 +258,7 @@ class CarEnv(gym.Env):
 
 if __name__ == '__main__':
     env = gym.make("gym_foo-v0")
-    fooEnv(env)
+    CarEnv(env)
 	
     
     
