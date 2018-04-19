@@ -531,3 +531,8 @@ register(
     reward_threshold=20,
     )
 
+register(
+    id='car-v0',
+    entry_point='gym.envs.unittest:car',
+    reward_threshold=10,
+    )
