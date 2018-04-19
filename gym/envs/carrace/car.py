@@ -82,7 +82,7 @@ def terminate(self):    #__del__(self)
     self.sys.exit()
 
     
-#def display_buttons():
+def display_buttons():
     """ Display the buttons you can use to apply a force to the cart """
     left = widgets.Button(description="<")
     right = widgets.Button(description=">")
@@ -93,7 +93,7 @@ def terminate(self):    #__del__(self)
 
     
 
-class fooEnv(gym.Env):
+class CarEnv(gym.Env):
 	metadata = {
 			'render.modes': ['human', 'rgb_array', 'state_pixels'],
         'video.frames_per_second' : FPS
