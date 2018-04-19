@@ -533,6 +533,6 @@ register(
 
 register(
     id='car-v0',
-    entry_point='gym.envs.unittest:car',
+    entry_point='gym.envs.carrace:car',
     reward_threshold=10,
     )
